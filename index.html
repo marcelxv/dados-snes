@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DADOS</title>
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+  <body>      <p class="nes-balloon from-left nes-pointer">
+    Role um dado
+  </p><br>
+<!-- Dark dialog -->
+<section>
+    <button type="button" class="nes-btn is-primary" onclick="document.getElementById('dialog-dark').showModal();">
+      Rolar 
+    </button>
+    <dialog class="nes-dialog is-dark" id="dialog-dark">
+      <form method="dialog">
+        <p class="title">Resultado</p>
+        <p><main></main></p>
+        <menu class="dialog-menu">
+            <button type="button" class="nes-btn" onClick="rolar()">Rolar</button></a>
+            <button class="nes-btn is-primary">OK</button>
+        </menu>
+      </form>
+    </dialog>
+  </section>
+<p style="text-align: center">            <a>  Feito por Marcel Lourenço<i class="nes-icon heart"></i>
+</p>
+    <script src="app.js"></script>   
+  </body>
+</html>
